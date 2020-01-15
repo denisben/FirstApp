@@ -1,0 +1,394 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        tools:context=".Algor6">
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="A6.Να κατασκευάσεται αλγόριθμο που θα ζητάει από το χρήστη να δώσει το φύλο για κάθε παιδί της τάξης (αφού γίνει ο απαραίτητος έλεγχος για το φύλο) και να το αποθηκεύει σε ένα πίνακα μαθητές,όπου Ν συνολικά παιδία της τάξης.Στην συνέχεια να υπολογίζει το συνολικό αριθμό αγοριών και κοριτσιών και να εμφανίζει το ποσοστό τους.Να εμφανίζει τα μηνύματα 'Δώσε φύλο’, ‘Δώσε σωστό φύλο’, ‘Το ποσοστό των αγοριών είναι’, ποσοστό1, ‘Το ποσοστό των κοριτσιών είναι’, ποσοστό2.Λέξεις κλειδιά:i,j,sum1,sum2,ποσοστό1,ποσοστό2,φύλο.
+" />
+
+        <EditText
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="1.5dp"
+            android:text="Αλγόριθμος Αλγόριθμος6" />
+
+        <EditText
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+
+
+        <EditText
+            android:id="@+id/a2"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="1.5dp"
+            android:text="Για i από 1 μέχρι Ν" />
+
+
+
+        <EditText
+            android:id="@+id/a3"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="1.5dp"
+            android:text="   Γράψε ‘Δώσε σωστό φύλο’" />
+
+        <EditText
+            android:id="@+id/a4"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="1.5dp"
+            android:text="   Διάβασε φύλο" />
+
+        <EditText
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s7"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s8"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s9"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s10"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s11"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s12"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/a5"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="1.5dp"
+            android:text=" Αν μαθητές[i]=άρρεν τότε" />
+
+        <EditText
+            android:id="@+id/s13"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s14"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/a6"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="1.5dp"
+            android:text=" Αλλιώς" />
+
+        <EditText
+            android:id="@+id/s15"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s16"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s17"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s18"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s19"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/a7"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="1.5dp"
+            android:text="Γράψε ‘Το ποσοστό των αγοριών είναι’, ποσοστό1" />
+
+        <EditText
+            android:id="@+id/s20"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+        <EditText
+            android:id="@+id/s21"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:inputType="text"
+            android:padding="1.5dp" />
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".Algor1">
+
+            <Button
+                android:id="@+id/config"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/a3button"
+                android:text="Ελεγχος" />
+
+            <Button
+                android:id="@+id/show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/a1button"
+                android:text="Λύση" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/a2button"
+                android:text="Επόμενο" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,231 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context=".Algor4">
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:padding="3dp"
+            android:layout_height="wrap_content"
+            android:text="A4.Να κατασκευάσεται αλγόριθμο που θα ταξινομεί έναν πίνακα 10 θέσεων με την ταξινόμηση 'φυσαλίδας'.Λέξεις κλειδιά:i,j,a[10],temp"
+            />
+
+        <EditText
+            android:id="@+id/a4"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Αλγόριθμος Αλγόριθμος4" />
+
+        <EditText
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/s20"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Για i από 1 μέχρι 10" />
+
+        <EditText
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:inputType="text" />
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/a2"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="  Αν a[i-1]>a[i] τότε" />
+
+        <EditText
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/s7"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/a3"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text=" Τέλος_επανάληψης" />
+
+        <EditText
+            android:id="@+id/s8"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/s9"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="1.5dp"
+            android:inputType="text" />
+
+
+
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Algor1">
+
+            <Button
+                android:id="@+id/config"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/a3button"
+                android:text="Ελεγχος" />
+
+            <Button
+                android:id="@+id/show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/a1button"
+                android:text="Λύση" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/a2button"
+                android:text="Επόμενο" />
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

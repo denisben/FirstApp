@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="_2">Αλγόριθμος Αλγόριθμος2</string>
+    <string name="done_i_n"><![CDATA[Οσο (done=ψεθδής) και (i<=N) επανέλαβε]]></string>
+    <string name="a3_20_0_20_20"><![CDATA[A3.Να γίνει ο αλγόριθμος που θα ζητάει από τον χρήστη να δώσει έναν θετικό αριθμό μικρότερο του 20 και στην συνέχεια θα βρίσκει αν ο αριθμός είναι άρτιος,περιττός η πραγματικός.Να γίνει ο απαραίτητος έλεγχος ώστε ο αριμός να είναι 0< αριθμό <20 και να εμφανίζονται τα κατάλληλα \'Δώσε θετικό αριθμό μικρότερο του 20\',\'Ξανά δώσε σωστό αριθμό\', \'Ο αριθμός είναι άρτιος\',\'Ο αριθμός σίναι περιττός,\'Ο αριθμός είναι πραγματικός\'.Λέξεις κλειδιά:αριθμός.]]></string>
+    <string name="_0"><![CDATA[\u0020Αλλιώς_αν αριθμός<0 τότε]]></string>
+    <string name="a_l"><![CDATA[\u0020\u0020αρνητικός[λ]<-αριθμός]]></string>
+    <string name="_01"><![CDATA[\u0020\u0020Αν αριθμός>0 τότε]]></string>
+    <string name="sum1_sum1"><![CDATA[\u0020\u0020sum1<-sum1+θετικός[κ]]]></string>
+    <string name="min_i"><![CDATA[min<-i]]></string>
+    <string name="a_i_a_min"><![CDATA[a[i]<-a[min]]]></string>
+    <string name="max_1"><![CDATA[max<-α[1]]]></string>
+    <string name="min_1"><![CDATA[min<-α[1]]]></string>
+</resources>

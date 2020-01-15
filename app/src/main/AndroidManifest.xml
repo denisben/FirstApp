@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ben.application">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Kef1sl" />
+        <activity android:name=".Kef2sl" />
+        <activity android:name=".Kef3sl" />
+        <activity android:name=".Kef4sl" />
+        <activity android:name=".Kef5sl" />
+        <activity android:name=".Kef6sl" />
+        <activity android:name=".Kef7sl" />
+        <activity android:name=".Algor1" />
+        <activity android:name=".Progr2" />
+        <activity android:name=".Kef1m" />
+        <activity android:name=".ResultsActivity" />
+        <activity android:name=".Kef2m" />
+        <activity android:name=".Kef3m" />
+        <activity android:name=".Kef4m" />
+        <activity android:name=".Kef5m" />
+        <activity android:name=".Kef6m" />
+        <activity android:name=".Kef7m" />
+        <activity android:name=".Progr1" />
+        <activity android:name=".Progr3" />
+        <activity android:name=".Algor2" />
+        <activity android:name=".Algor3" />
+        <activity android:name=".Algor4" />
+        <activity android:name=".Algor5" />
+        <activity android:name=".Algor6" />
+        <activity android:name=".Algor7"></activity>
+    </application>
+
+</manifest>
